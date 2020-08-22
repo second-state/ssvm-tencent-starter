@@ -6,7 +6,9 @@ If you have not done so already, follow these simple instructions to [install ss
 
 ## Build the WASM bytecode
 
-We build a [Rust function as a service](src/main.rs). It simply takes the function input from STDIN and outputs the results into STDOUT. That allows it to be used in a variety of different scenarions and payloads.
+We build a [Rust function as a service](src/main.rs). It simply takes the function input from STDIN and outputs the results into STDOUT. That allows it to be used in a variety of different scenarions and payloads. The function anticipates an input JSON string with `key1` and `key2` fields. As we will see that is the JSON format used in TencentCloud's built-in hello world tests.
+
+To build the Rust function into a WebAssembly bytecode application, do the following from your command line. It might take a few minutes to build.
 
 ```
 $ ssvmup build
