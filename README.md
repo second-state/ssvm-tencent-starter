@@ -6,6 +6,8 @@ If you have not done so already, follow these simple instructions to [install ss
 
 ## Build the WASM bytecode
 
+We build a [Rust function as a service](src/main.rs). It simply takes the function input from STDIN and outputs the results into STDOUT. That allows it to be used in a variety of different scenarions and payloads.
+
 ```
 $ ssvmup build
 ```
