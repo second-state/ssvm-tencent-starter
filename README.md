@@ -73,5 +73,5 @@ That's it! You have now tested and deployed your first server-side WebAssembly f
 
 ## Next step
 
-The next step is to create a complete demo to run and visualize a machine learning algorithm.
+The next step is to [create a complete demo to run and visualize a machine learning algorithm](https://github.com/second-state/wasm-learning/tree/master/tencentcloud/ssvm/pca).
 
