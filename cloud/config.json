@@ -53,7 +53,7 @@
     "functions": {
       "name": "WebAssemblyDemo",  // Function name which only be in English. 函数名称，只支持英文
       "description": "Rust and WebAssembly demo function. Rust and WebAssembly 模版函数",
-      "handler":"hello.wasm",
+      "handler":"hello_bg.wasm",
       "memorySize": 128,  // Running memory.  运行配置内存
       "timeout": 3,  // Running timeout.  运行超时时间
       "runtime": "CustomRuntime", // Runtime which users can search demo by this keyword. 运行环境，用户可以通过该关键字搜索["Python2.7", "Python3.6", "Nodejs6.10", "Java8", "LuaCDN", "NodejsCDN", "Php5", "Php7", "Nodejs8.9", "Go1", "CustomRuntime"]
@@ -67,7 +67,7 @@
           "codeFile": [
               "bootstrap",
               "ssvm",
-	      "hello.wasm"
+	      "hello_bg.wasm"
           ],
           "CodeUri":[     // Code download url which should be same as 'download_address'. 代码下载地址，和download_address保持一致
               "https://github.com/second-state/ssvm-tencent-starter"
