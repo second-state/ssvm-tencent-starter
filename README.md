@@ -1,3 +1,5 @@
+[中文](README-zh.md)
+
 # Rust and WebAssembly Function as a Service (FaaS) on Tencent Cloud
 
 ## Prerequisites
