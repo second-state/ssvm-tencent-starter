@@ -7,7 +7,7 @@
         "attention": "无",
         "readme": {
             "file": "",
-            "content": ""
+            "content": "请参见： https://github.com/second-state/ssvm-tencent-starter/blob/master/README-zh.md"
         },
         "license": {
             "file": "",
@@ -23,7 +23,7 @@
         "attention": "No",
         "readme": {
             "file": "",  // readme file
-            "content": ""  //content of readme
+            "content": "Please checkout: https://github.com/second-state/ssvm-tencent-starter/blob/master/README.md"  //content of readme
         },
         "license": {
             "file": "",  // license file
