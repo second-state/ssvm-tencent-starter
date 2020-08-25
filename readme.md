@@ -34,7 +34,7 @@ $ zip hello.zip *
 
 4 点击下一步
 
-![部署步骤 1](docs/deploy02.png)
+![部署步骤 1](docs/deploy01_cn.png)
 
 5 将执行处理程序设置为 `hello_bg.wasm`
 
@@ -42,13 +42,13 @@ $ zip hello.zip *
 
 7 点击完成
 
-![部署步骤 2](docs/deploy02.png)
+![部署步骤 2](docs/deploy02_cn.png)
 
 ## 测试
 
 成功部署函数后，转到 Function code 选项卡。
 
-![部署成功](docs/deploy03.png)
+![部署成功](docs/deploy03_cn.png)
 
 向下滚动并单击 Test 按钮。该函数将接收 hello world JSON 数据输入
 ```
