@@ -58,7 +58,7 @@ $ zip hello.zip *
 }
 ```
 
-![测试该函数](docs/test.png)
+![测试该函数](docs/test_cn.png)
 
 并输出一个 hello 消息。
 
@@ -66,7 +66,7 @@ $ zip hello.zip *
 Hello! test value 1, test value 2
 ```
 
-![测试执行结果](docs/result.png)
+![测试执行结果](docs/result_cn.png)
 
 就是这样! 您现在已经测试并部署了第一个服务器端 WebAssembly 函数！
 
