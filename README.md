@@ -1,4 +1,6 @@
-[中文](README-zh.md)
+# [中文文档点击这里](README-zh.md) 
+
+---
 
 # Rust and WebAssembly Function as a Service (FaaS) on Tencent Cloud
 
