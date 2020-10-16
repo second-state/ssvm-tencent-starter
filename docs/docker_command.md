@@ -13,15 +13,6 @@ ssvm-0.6.9          latest              9e7ab8a800d5        34 seconds ago      
 ubuntu              20.04               9140108b62dc        2 weeks ago         72.9MB
 ```
 
-Start the Docker image and log in as a bash shell.
-
-```
-$ docker run -ti ssvm-0.6.9 /bin/bash
-root@84dd2c9b96c8:/# ls
-bin                                           proc
-boot                                          root
-```
-
 Start Docker with local mapping
 
 ```
